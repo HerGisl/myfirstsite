@@ -13,6 +13,8 @@ import os.path
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
+import hermann.apps
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
@@ -37,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'hermann.apps.HermannConfig',
+    'johanna.apps.JohannaConfig'
 ]
 
 MIDDLEWARE = [

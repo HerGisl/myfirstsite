@@ -1,9 +1,7 @@
 .hermann {
-    background-color: antiquewhite;
-    border: solid 2px rgba(155, 155, 155, .5);
+    border-bottom: solid 2px rgba(155, 155, 155, .5);
 }
 
 .johanna {
-    background-color: deeppink;
-    border: solid 2px rgba(155, 155, 155, .5);
+    border-bottom: solid 2px rgba(155, 155, 155, .5);
 }
