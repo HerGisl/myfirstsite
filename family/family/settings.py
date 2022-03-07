@@ -80,8 +80,12 @@ WSGI_APPLICATION = 'family.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'hcvigoxa',
+        'USER': 'hcvigoxa',
+        'PASSWORD': 'af2ZyiYbYXphqLSallxHwbh-vrL_A90t',
+        'HOST': 'abul.db.elephantsql.com',
+        'PORT': '5432'
     }
 }
 
